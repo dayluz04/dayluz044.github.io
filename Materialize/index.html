@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books And Movies</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Books and Movies</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="books.html">Mis Libros</a></li>
+                    <li><a href="about.html">Acerca de mi</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="books.html">Mis Libros</a></li>
+            <li><a href="about.html">Acerca de mi</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h2 class="center-align">Harry Potter</h2>
+                <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="./hp1.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="./hp2.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img src="./hp3.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img src="./hp4.jpg"></a>
+                    <a class="carousel-item" href="#one!"><img src="./hp5.jpg"></a>
+                    <a class="carousel-item" href="#one!"><img src="./hp6.jpg"></a>
+                    <a class="carousel-item" href="#one!"><img src="./hp7.jpg"></a>
+                    <a class="carousel-item" href="#one!"><img src="./hp8.jpg"></a>
+                </div>
+            </div>
+            <div class="col s12">
+
+                <img class="responsive-img" src="./hpc.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Lorem</h5>
+                    <p class="grey-text text-lighten-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem neque magni omnis doloremque
+                        repudiandae hic nihil labore mollitia quam vero. Exercitationem, in? Doloremque in, voluptate
+                        cumque facere explicabo sit. Deleniti?
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Enlaces</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Inicio</a></li>
+                        <li><a class="grey-text text-lighten-3" href="books.html">Mis Libros</a></li>
+                        <li><a class="grey-text text-lighten-3" href="about.html">Acerca de mi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./jquery-3.6.0.slim.min.js"></script>
+    <script type="text/javascript" src="./materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+
+</html>
